@@ -16,7 +16,7 @@ $mathjax
 <link href="$relpath^$stylesheet" rel="stylesheet" type="text/css" />
 $extrastylesheet
 <!-- Mogsdad added favicon following http://stackoverflow.com/questions/18215463/how-to-set-a-favicon-for-doxygen-output -->
-<link rel="favicon" href="$relpath^../custom/favicon.ico" type="image/x-icon" /></head>
+<link rel="shortcut icon" href="$relpath^../custom/favicon.ico" type="image/x-icon" /></head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 
