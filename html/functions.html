@@ -57,11 +57,13 @@
       <li><a href="#index_c"><span>c</span></a></li>
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
       <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_k"><span>k</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li><a href="#index_t"><span>t</span></a></li>
@@ -93,12 +95,16 @@
 
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>CalibrateArms()
+: <a class="el" href="class_robot_arms.html#a1f23d6c153e35452c45b803e98557632">RobotArms</a>
+</li>
 <li>Camera()
 : <a class="el" href="class_camera.html#a01f94c3543f56ede7af49dc778f19331">Camera</a>
 </li>
 <li>ComponentInit()
 : <a class="el" href="class_camera.html#a7ee0d11b9bd42d9de1c288d5508f437b">Camera</a>
 , <a class="el" href="class_mecanum_drive.html#a136a01743b904c91f256e9be4999e051">MecanumDrive</a>
+, <a class="el" href="class_robot_arms.html#a84a8a1eb0eeb00eac116bcebc2143d4d">RobotArms</a>
 , <a class="el" href="class_robot_component.html#ab0ca52eccd84025bcb30fd9dcf82a1bf">RobotComponent</a>
 </li>
 </ul>
@@ -114,6 +120,7 @@
 <li>DoWork()
 : <a class="el" href="class_camera.html#ad189d72caa68409f70222b522b893e9a">Camera</a>
 , <a class="el" href="class_mecanum_drive.html#a92ab6a598d2938d9f2b9bcf0eb1b888e">MecanumDrive</a>
+, <a class="el" href="class_robot_arms.html#adabb9fab5fe4d8bc11111698c1eb1df7">RobotArms</a>
 , <a class="el" href="class_robot_component.html#afe55f37baa035b1bc7321de38027d8fe">RobotComponent</a>
 </li>
 </ul>
@@ -122,6 +129,13 @@
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
 <li>encoder
 : <a class="el" href="class_robot.html#a31429e15d3297e6e4a99cc43e5f7a62b">Robot</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>frontSwitch
+: <a class="el" href="class_robot.html#ab5f6e6a3b7a574314db9a9b42806c6dc">Robot</a>
 </li>
 </ul>
 
@@ -137,6 +151,9 @@
 <li>isEnabled()
 : <a class="el" href="class_smooth_axis.html#ac8f937e309121e5282c451d959297b47">SmoothAxis</a>
 </li>
+<li>isGyroEnabled()
+: <a class="el" href="class_mecanum_drive.html#af508a872d93737defe5aab951ff4e056">MecanumDrive</a>
+</li>
 <li>isSmoothAccel()
 : <a class="el" href="class_mecanum_drive.html#a54f3cce0f0db2630d632a90362867662">MecanumDrive</a>
 </li>
@@ -144,14 +161,32 @@
 
 
 <h3><a class="anchor" id="index_k"></a>- k -</h3><ul>
+<li>k_driverDistancePerPulse
+: <a class="el" href="class_robot_arms.html#a1cac4fcfd9a8a7b7b2552df1a19f15a8">RobotArms</a>
+</li>
+<li>k_lifterDistancePerPulse
+: <a class="el" href="class_robot_arms.html#a48b001ee4bfd1120f2ca1ae3e223202c">RobotArms</a>
+</li>
+<li>k_maxCount
+: <a class="el" href="class_robot_arms.html#a0ecf6c70d6dbfad5296f01a38186c767">RobotArms</a>
+</li>
+<li>k_minCount
+: <a class="el" href="class_robot_arms.html#af11aaa5870fdede173fa32214f539a17">RobotArms</a>
+</li>
 <li>kAccelVal
 : <a class="el" href="class_smooth_axis.html#a1e99d38e7a41e11d321010fc4da9150c">SmoothAxis</a>
+</li>
+<li>kArmMotorChannel
+: <a class="el" href="class_robot_arms.html#ae9859c68f3b0e5583dbaf3d7e16b43cb">RobotArms</a>
 </li>
 <li>kBackLeftCh
 : <a class="el" href="class_mecanum_drive.html#ac78f52305c675a3595eb0c286a5b5ea2">MecanumDrive</a>
 </li>
 <li>kBackRightCh
 : <a class="el" href="class_mecanum_drive.html#a0914c3eb57b1895e2c7a2d441688b7c0">MecanumDrive</a>
+</li>
+<li>kBottomLimitChannel
+: <a class="el" href="class_robot_arms.html#a9e61cdbfb5bb9ecf9f96766da7bca2ee">RobotArms</a>
 </li>
 <li>kCameraChannel
 : <a class="el" href="class_camera.html#aeb077dad2014dedcdbfa271cbb5596f7">Camera</a>
@@ -168,11 +203,29 @@
 <li>kCameraUp
 : <a class="el" href="class_camera.html#a98ec07249c4e48a35b4019696ccf2377">Camera</a>
 </li>
+<li>kDriveStickCh
+: <a class="el" href="class_mecanum_drive.html#a4fb37eb76a1774213966cfd2656049ac">MecanumDrive</a>
+</li>
+<li>kEncoderchannel1
+: <a class="el" href="class_robot_arms.html#addb9c3b5644461ee2f35316e4ba3300b">RobotArms</a>
+</li>
+<li>kEncoderchannel2
+: <a class="el" href="class_robot_arms.html#a7fa4d9a1d3766597a61db6dc8f8df8f6">RobotArms</a>
+</li>
 <li>kFrontLeftCh
 : <a class="el" href="class_mecanum_drive.html#a8b81749b1d1fca57695c77626a5fff9f">MecanumDrive</a>
 </li>
 <li>kFrontRightCh
 : <a class="el" href="class_mecanum_drive.html#ad2b54440bd1c52332c3107ada54abf86">MecanumDrive</a>
+</li>
+<li>kGyroButton
+: <a class="el" href="class_mecanum_drive.html#a41b3e365677167b38e088f0474688656">MecanumDrive</a>
+</li>
+<li>kGyroCh
+: <a class="el" href="class_mecanum_drive.html#a3958b7041c3b85783ac4e0f1edacddf8">MecanumDrive</a>
+</li>
+<li>kLimitChannel
+: <a class="el" href="class_robot_arms.html#a9cbab2a24991793977b0e8bbae6bb0d9">RobotArms</a>
 </li>
 <li>kMax
 : <a class="el" href="class_camera.html#a230301cf02a1ec49a0adcb579afe0f89">Camera</a>
@@ -183,29 +236,44 @@
 <li>kMinCameraServoPosition
 : <a class="el" href="class_camera.html#af6ddf829be07dc737e3c081c888bc6ed">Camera</a>
 </li>
-<li>kMoveStickCh
-: <a class="el" href="class_mecanum_drive.html#a9826d607d895f88dee6d851627f586d4">MecanumDrive</a>
-</li>
 <li>kNoGyro
-: <a class="el" href="class_mecanum_drive.html#ae43c17548233bbf011942adbc201766f">MecanumDrive</a>
-</li>
-<li>kRotateStickCh
-: <a class="el" href="class_mecanum_drive.html#a468d808415d48125f473dd27e72ff6a9">MecanumDrive</a>
+: <a class="el" href="class_mecanum_drive.html#a1e6a298b229db7b332cf4b73b0e9683d">MecanumDrive</a>
 </li>
 <li>kSafetyTimeout
 : <a class="el" href="class_mecanum_drive.html#afd2a5b83ef53eea39235f2e93c77d182">MecanumDrive</a>
+</li>
+<li>kSolenoidChannel1
+: <a class="el" href="class_robot_arms.html#a55904ff96ae5e9374a71f9e1808e43a7">RobotArms</a>
+</li>
+<li>kSolenoidChannel2
+: <a class="el" href="class_robot_arms.html#a168f36e8d1b2e7a8b1b1966f77ffca4a">RobotArms</a>
+</li>
+<li>kStickChannel
+: <a class="el" href="class_robot_arms.html#accb39986ad3a707d987450d30f3b77d2">RobotArms</a>
+</li>
+<li>kTopLimitChannel
+: <a class="el" href="class_robot_arms.html#a85206f0c90011569b4a44fe1e716ca39">RobotArms</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>liftSpeed
+: <a class="el" href="class_robot_arms.html#a43498582b1b3d18b37b2df52942c923d">RobotArms</a>
+</li>
 <li>lw
-: <a class="el" href="class_robot.html#aaa35b040746d29a92c820d317cc5ef86">Robot</a>
+: <a class="el" href="class_robot.html#a2adbaf98f6f4dce5fcf459b2dca26199">Robot</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>m_ArmMotor
+: <a class="el" href="class_robot_arms.html#af0c65e25dbc926ed3ed3c5e3ac855c33">RobotArms</a>
+</li>
+<li>m_BottomLimit
+: <a class="el" href="class_robot_arms.html#ac40ed5aaa78a15b003cc9eda7c02d9af">RobotArms</a>
+</li>
 <li>m_Camera
 : <a class="el" href="class_camera.html#aabbe79755463edcd159c4aaa6e3b0903">Camera</a>
 , <a class="el" href="class_robot.html#a3bb0a688c7b12a39e53257add665d8e6">Robot</a>
@@ -216,21 +284,45 @@
 <li>m_CameraServoPosition
 : <a class="el" href="class_camera.html#a94c8637fb5ee0f71182f080b2f0627b1">Camera</a>
 </li>
+<li>m_ControlStick
+: <a class="el" href="class_robot_arms.html#af0202c6f1dd6b7ff7b5d548c4152c799">RobotArms</a>
+</li>
+<li>m_DoubleSolenoid
+: <a class="el" href="class_robot_arms.html#a1ae0d9530c8a0e2166c79b167e1997dc">RobotArms</a>
+</li>
 <li>m_Drive
 : <a class="el" href="class_mecanum_drive.html#a72f8b816a6f115bff19117a94f97e379">MecanumDrive</a>
 , <a class="el" href="class_robot.html#a479fd8cda708277e7aebf4af5527cd96">Robot</a>
 </li>
+<li>m_DriveCounter
+: <a class="el" href="class_robot_arms.html#af7ce0c149b7377e0a7c8aa4270e28d88">RobotArms</a>
+</li>
+<li>m_DriveStick
+: <a class="el" href="class_mecanum_drive.html#a4183557dda384e136ec1987d29b8a1d6">MecanumDrive</a>
+</li>
 <li>m_enabled
 : <a class="el" href="class_smooth_axis.html#a88f7e49fb2edba97ed0e12ee38b9ed2d">SmoothAxis</a>
 </li>
-<li>m_MoveStick
-: <a class="el" href="class_mecanum_drive.html#a7ecd458653f7d125b17b06c44c8c5afd">MecanumDrive</a>
+<li>m_Gyro
+: <a class="el" href="class_mecanum_drive.html#a5b3654df2650fd4b605c70f9e5146f66">MecanumDrive</a>
+</li>
+<li>m_gyroAngle
+: <a class="el" href="class_mecanum_drive.html#a2b7984fcd440e141dda9f84cf0bd0431">MecanumDrive</a>
+</li>
+<li>m_GyroButton
+: <a class="el" href="class_mecanum_drive.html#aa13685791f3bc26c37ded6542e4b04ae">MecanumDrive</a>
+</li>
+<li>m_GyroButtonIsPressed
+: <a class="el" href="class_mecanum_drive.html#ae69b854ba02ac446f94e46d434c2f0d6">MecanumDrive</a>
+</li>
+<li>m_gyroEnabled
+: <a class="el" href="class_mecanum_drive.html#ade54c274e0de9e16a7c720685d0261fa">MecanumDrive</a>
+</li>
+<li>m_Limit
+: <a class="el" href="class_robot_arms.html#a58613cfff8954cdfb849c434b5825c2b">RobotArms</a>
 </li>
 <li>m_prevTarget
 : <a class="el" href="class_smooth_axis.html#a8610b2bae1c160cff32fc4d9b01d9a05">SmoothAxis</a>
-</li>
-<li>m_RotateStick
-: <a class="el" href="class_mecanum_drive.html#ac317c7a904a0e71431e14f77447dc5e8">MecanumDrive</a>
 </li>
 <li>m_SmoothAccel
 : <a class="el" href="class_mecanum_drive.html#a96d06717195c7b24abc7aa27ebdc5f88">MecanumDrive</a>
@@ -240,6 +332,9 @@
 </li>
 <li>m_target
 : <a class="el" href="class_smooth_axis.html#a44620e6d49e6f6897f2776565f978ad1">SmoothAxis</a>
+</li>
+<li>m_TopLimit
+: <a class="el" href="class_robot_arms.html#ad3e7842b031e55922935cacaeda17a8c">RobotArms</a>
 </li>
 <li>m_ValueRotate
 : <a class="el" href="class_mecanum_drive.html#ae7b2a825c563bd7fb677e234c0f06ff2">MecanumDrive</a>
@@ -256,9 +351,19 @@
 </ul>
 
 
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>openArms
+: <a class="el" href="class_robot_arms.html#acc5106b1d721eb207e9a5be20c370d70">RobotArms</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>Robot()
 : <a class="el" href="class_robot.html#a4fc7c70ae20623f05e06f2ecb388b6c4">Robot</a>
+</li>
+<li>RobotArms()
+: <a class="el" href="class_robot_arms.html#a3f683ca6416f37a6e5638d89f8a9583e">RobotArms</a>
 </li>
 <li>RobotComponent()
 : <a class="el" href="class_robot_component.html#a77d4b54251751fd0d43cf9eb528cecbd">RobotComponent</a>
@@ -273,10 +378,14 @@
 <li>Sense()
 : <a class="el" href="class_camera.html#aa6606e0b5f57627e8929125c7bc605c8">Camera</a>
 , <a class="el" href="class_mecanum_drive.html#a358641effd57539555a080157e1a13c1">MecanumDrive</a>
+, <a class="el" href="class_robot_arms.html#ad1f0cf03eb531a3bf89bd672d21abba2">RobotArms</a>
 , <a class="el" href="class_robot_component.html#a79c26da518f884a9879f0050f35ec4d1">RobotComponent</a>
 </li>
 <li>setEnabled()
 : <a class="el" href="class_smooth_axis.html#aaef4773d97f189bca19ae1592fc95a20">SmoothAxis</a>
+</li>
+<li>setGyroEnabled()
+: <a class="el" href="class_mecanum_drive.html#ab7e983941b1929b59eb1bd4e0b67b30c">MecanumDrive</a>
 </li>
 <li>SetSmoothAccel()
 : <a class="el" href="class_mecanum_drive.html#a6ff85bf4be07e519c384bb42f66b1f15">MecanumDrive</a>
@@ -322,6 +431,9 @@
 <li>~MecanumDrive()
 : <a class="el" href="class_mecanum_drive.html#af6432bed5dcea8d3cf69a5e4eddad446">MecanumDrive</a>
 </li>
+<li>~RobotArms()
+: <a class="el" href="class_robot_arms.html#a4d6e3142a0359158b2ca9da08f56e1dd">RobotArms</a>
+</li>
 <li>~RobotComponent()
 : <a class="el" href="class_robot_component.html#ad51655736a8133f6e397869b2dbcc055">RobotComponent</a>
 </li>
@@ -332,7 +444,7 @@
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 19 2015 18:13:54 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 23 2015 19:22:30 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
