@@ -113,8 +113,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae082d4324810c24859aa7c73c8bed31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00006">6</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<div class="textblock"><p>Our primary <a class="el" href="class_robot.html">Robot</a> class, based on IterativeRobot. </p>
+
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00018">18</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4fc7c70ae20623f05e06f2ecb388b6c4"></a>
 <div class="memitem">
@@ -138,7 +139,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor - According to the docs for IterativeRobot, the initialization being done here should instead be in a <a class="el" href="class_robot.html#ac190e81ad8ecef644d0657ec7823285c">RobotInit()</a> function, to ensure that all base-level init is completed before we try using any hardware. </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00026">26</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00038">38</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -163,9 +164,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#a298231322c20bee5b09c7eb2ca25bcb5">AutonomousInit()</a> &ndash; called each and every time autonomous is entered from another mode </p>
+<p>Called each and every time autonomous is entered from another mode </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00066">66</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00078">78</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -189,10 +190,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#ab8f39060caa36fcb20fecc0edaff873c">AutonomousPeriodic()</a> &ndash; called periodically during autonomous phase.</p>
+<p>Called periodically during autonomous phase.</p>
 <p>Periodic() functions &ndash; each of these functions is called iteratively at the appropriate periodic rate (aka the "slow loop"). The default period of the iterative robot is synced to the driver station control packets, giving a periodic frequency of about 50Hz (50 times per second). </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00081">81</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00093">93</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -216,9 +217,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#a3d8faddccee533c280636f418a9c7047">DisabledInit()</a> &ndash; called only when first disabled </p>
+<p>Called only when first disabled </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00051">51</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00063">63</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -242,9 +243,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#adedfae3427127c1709120f623b256540">DisabledPeriodic()</a> &ndash; called periodically during disabled phase </p>
+<p>Called periodically during disabled phase </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00058">58</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00070">70</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -268,9 +269,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#ac190e81ad8ecef644d0657ec7823285c">RobotInit()</a> &ndash; provide for initialization at robot power-on </p>
+<p>Provide for initialization at robot power-on </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00041">41</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00053">53</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 <p>References <a class="el" href="_mecanum_drive_8cpp_source.html#l00039">MecanumDrive::ComponentInit()</a>, and <a class="el" href="_camera_8cpp_source.html#l00030">Camera::ComponentInit()</a>.</p>
 
@@ -296,9 +297,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#a08a677323ea90c60da79e74fd663d476">TeleopInit()</a> &ndash; called each and every time teleop is entered from another mode </p>
+<p>Called each and every time teleop is entered from another mode </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00095">95</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00107">107</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -322,9 +323,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Called periodically during teleop phase. </p>
 <p>&lt; Divides the value taken from the encoder by gear ratio of 71.164, it then divides the result by encoder ratio of 7:1, it will output the # of motor rotations. </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00102">102</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00114">114</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 <p>References <a class="el" href="_camera_8cpp_source.html#l00057">Camera::DoWork()</a>, <a class="el" href="_mecanum_drive_8cpp_source.html#l00103">MecanumDrive::DoWork()</a>, <a class="el" href="_mecanum_drive_8cpp_source.html#l00068">MecanumDrive::Sense()</a>, and <a class="el" href="_camera_8cpp_source.html#l00044">Camera::Sense()</a>.</p>
 
@@ -350,9 +352,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#ac28b92c44b5e3e28db0139de69613b3e">TestInit()</a> &ndash; called each and every time test is entered from another mode </p>
+<p>Called each and every time test is entered from another mode </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00172">172</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00184">184</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -376,9 +378,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="class_robot.html#ab7db8d2e7235ceda77ac68b938b2cdf4">TestPeriodic()</a> &ndash; called periodically during test phase. </p>
+<p>Called periodically during test phase. </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00179">179</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00191">191</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -401,7 +403,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00018">18</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00030">30</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -423,7 +425,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00014">14</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00026">26</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -445,7 +447,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00012">12</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00024">24</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -467,7 +469,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00016">16</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00028">28</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -489,7 +491,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00017">17</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00029">29</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +515,7 @@ Private Attributes</h2></td></tr>
 
 <p><a class="el" href="class_camera.html">Camera</a> <a class="el" href="class_robot_component.html">RobotComponent</a>. </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00009">9</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00021">21</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -537,7 +539,7 @@ Private Attributes</h2></td></tr>
 
 <p><a class="el" href="class_mecanum_drive.html">MecanumDrive</a> <a class="el" href="class_robot_component.html">RobotComponent</a>. </p>
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00010">10</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00022">22</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -559,7 +561,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00013">13</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00025">25</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -581,7 +583,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00015">15</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_robot_8cpp_source.html#l00027">27</a> of file <a class="el" href="_robot_8cpp_source.html">Robot.cpp</a>.</p>
 
 </div>
 </div>
@@ -591,7 +593,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 22:25:55 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 22:42:14 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

@@ -105,9 +105,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00015">15</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00016">16</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
-<p>References <a class="el" href="_smooth_axis_8cpp_source.html#l00066">setEnabled()</a>.</p>
+<p>References <a class="el" href="_smooth_axis_8cpp_source.html#l00067">setEnabled()</a>.</p>
 
 </div>
 </div>
@@ -133,7 +133,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Destructor </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00022">22</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00023">23</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
 </div>
 </div>
@@ -155,9 +155,9 @@ Private Attributes</h2></td></tr>
 <p>Get target axis value to apply to motor.</p>
 <p>The smoothing algorithm limits acceleration to a fixed maximum <b>per iteration</b>. The maximum increment is defined as kAccelVal. The standard iteration period is nominally 20ms, however that value is neither measured nor enforced in this simple algorithm. </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00046">46</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00047">47</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
-<p>References <a class="el" href="_smooth_axis_8cpp_source.html#l00059">isEnabled()</a>, <a class="el" href="_smooth_axis_8h_source.html#l00064">kAccelVal</a>, <a class="el" href="_smooth_axis_8h_source.html#l00063">m_prevTarget</a>, and <a class="el" href="_smooth_axis_8h_source.html#l00063">m_target</a>.</p>
+<p>References <a class="el" href="_smooth_axis_8cpp_source.html#l00060">isEnabled()</a>, <a class="el" href="_smooth_axis_8h_source.html#l00064">kAccelVal</a>, <a class="el" href="_smooth_axis_8h_source.html#l00063">m_prevTarget</a>, and <a class="el" href="_smooth_axis_8h_source.html#l00063">m_target</a>.</p>
 
 <p>Referenced by <a class="el" href="_mecanum_drive_8cpp_source.html#l00103">MecanumDrive::DoWork()</a>.</p>
 
@@ -179,11 +179,11 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Current state, <code>true</code> if enabled.</dd></dl>
 <p>Get state of axis value smoothing capability. </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00059">59</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00060">60</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
 <p>References <a class="el" href="_smooth_axis_8h_source.html#l00062">m_enabled</a>.</p>
 
-<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00046">GetValue()</a>.</p>
+<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00047">GetValue()</a>.</p>
 
 </div>
 </div>
@@ -209,11 +209,11 @@ Private Attributes</h2></td></tr>
 </dl>
 <p>Set state of axis value smoothing capability. </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00066">66</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00067">67</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
 <p>References <a class="el" href="_smooth_axis_8h_source.html#l00062">m_enabled</a>, <a class="el" href="_smooth_axis_8h_source.html#l00063">m_prevTarget</a>, and <a class="el" href="_smooth_axis_8h_source.html#l00063">m_target</a>.</p>
 
-<p>Referenced by <a class="el" href="_mecanum_drive_8cpp_source.html#l00125">MecanumDrive::SetSmoothAccel()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00015">SmoothAxis()</a>.</p>
+<p>Referenced by <a class="el" href="_mecanum_drive_8cpp_source.html#l00125">MecanumDrive::SetSmoothAccel()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00016">SmoothAxis()</a>.</p>
 
 </div>
 </div>
@@ -239,7 +239,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <p>Feed a new target axis value </p>
 
-<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00029">29</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_smooth_axis_8cpp_source.html#l00030">30</a> of file <a class="el" href="_smooth_axis_8cpp_source.html">SmoothAxis.cpp</a>.</p>
 
 <p>References <a class="el" href="_smooth_axis_8h_source.html#l00063">m_prevTarget</a>, and <a class="el" href="_smooth_axis_8h_source.html#l00063">m_target</a>.</p>
 
@@ -270,7 +270,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_smooth_axis_8h_source.html#l00064">64</a> of file <a class="el" href="_smooth_axis_8h_source.html">SmoothAxis.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00046">GetValue()</a>.</p>
+<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00047">GetValue()</a>.</p>
 
 </div>
 </div>
@@ -296,7 +296,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_smooth_axis_8h_source.html#l00062">62</a> of file <a class="el" href="_smooth_axis_8h_source.html">SmoothAxis.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00059">isEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00066">setEnabled()</a>.</p>
+<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00060">isEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00067">setEnabled()</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_smooth_axis_8h_source.html#l00063">63</a> of file <a class="el" href="_smooth_axis_8h_source.html">SmoothAxis.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00046">GetValue()</a>, <a class="el" href="_smooth_axis_8cpp_source.html#l00066">setEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00029">SetTarget()</a>.</p>
+<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00047">GetValue()</a>, <a class="el" href="_smooth_axis_8cpp_source.html#l00067">setEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00030">SetTarget()</a>.</p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_smooth_axis_8h_source.html#l00063">63</a> of file <a class="el" href="_smooth_axis_8h_source.html">SmoothAxis.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00046">GetValue()</a>, <a class="el" href="_smooth_axis_8cpp_source.html#l00066">setEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00029">SetTarget()</a>.</p>
+<p>Referenced by <a class="el" href="_smooth_axis_8cpp_source.html#l00047">GetValue()</a>, <a class="el" href="_smooth_axis_8cpp_source.html#l00067">setEnabled()</a>, and <a class="el" href="_smooth_axis_8cpp_source.html#l00030">SetTarget()</a>.</p>
 
 </div>
 </div>
@@ -357,7 +357,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 22:25:55 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 25 2015 22:42:14 for Ravens Robotics FRC 2015 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
